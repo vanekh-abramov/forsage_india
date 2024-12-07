@@ -1,0 +1,13 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: purple;
+  color: white;
+  font-size: 2em;
+}

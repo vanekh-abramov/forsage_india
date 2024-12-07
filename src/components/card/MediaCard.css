@@ -1,0 +1,15 @@
+.MuiCardMedia-root {
+  background-size: contain !important;
+}
+
+/* 
+.MuiGrid2-root {
+  height: inherit !important;
+} */
+
+.MuiPaper-root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
