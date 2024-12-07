@@ -20,7 +20,7 @@ const Main = () => {
               article={article}
               name={name}
               brend={brend}
-              image={`src/data/photos/${article}.png`}
+              image={`./src/data/photos/${article}.png`}
               link={`${"/" + article}`}
             />
           </Grid>
