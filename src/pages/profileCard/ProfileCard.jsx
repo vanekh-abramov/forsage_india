@@ -9,7 +9,10 @@ const ProfileCard = () => {
   const cardToShow = catalogue.find((item) => item.article === id);
   return (
     <Box display={"flex"} flexDirection={windowWidth < 540 && "column"}>
-      <img src={`./public/photos/photos/${cardToShow.article}.png`} alt='' />
+      <img
+        src={`https://forsage-th-in-catalogue.netlify.app/photos/photos/${cardToShow.article}.png`}
+        alt=''
+      />
       <Box
         display={"flex"}
         flexDirection={"column"}

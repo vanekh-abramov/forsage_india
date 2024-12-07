@@ -20,7 +20,7 @@ const Main = () => {
               article={article}
               name={name}
               brend={brend}
-              image={`./public/photos/photos/${article}.png`}
+              image={`https://forsage-th-in-catalogue.netlify.app/photos/photos/${article}.png`}
               link={`${"/" + article}`}
             />
           </Grid>
