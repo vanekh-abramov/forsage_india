@@ -12,7 +12,7 @@ const Footer = () => {
           component='div'
           sx={{ flexGrow: 1, alignSelf: "flex-end" }}
         >
-          Footer
+          whatsApp: +91 62849-86402 <br></br> Mail: sales@th-tool.in
         </Typography>
       </Box>
     </div>

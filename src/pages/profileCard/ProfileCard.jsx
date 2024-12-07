@@ -21,7 +21,10 @@ const ProfileCard = () => {
       >
         <Typography variant='h4'>{cardToShow.article}</Typography>
         <Typography>{cardToShow.description}</Typography>
-        <Typography>Wholesale Price: {cardToShow["without VAT"]}$</Typography>
+        <Typography>
+          Wholesale Price: {cardToShow["without VAT"]}$ ||{" "}
+          {cardToShow["without VAT"] * 85}₹
+        </Typography>
       </Box>
     </Box>
   );
