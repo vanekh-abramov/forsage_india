@@ -6,6 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { Box, Container } from "@mui/system";
 import { Route, Routes } from "react-router";
 import ProfileCard from "./pages/profileCard/ProfileCard";
+
 // import { Outlet } from "react-router-dom";
 
 const App = () => {
